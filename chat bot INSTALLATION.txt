@@ -1,0 +1,24 @@
+Process to create chat bot using OpenAI:
+Reference Youtube Video ==> https://www.youtube.com/watch?v=dXsZp39L2Jk
+
+
+1) Download a project or refer to https://platform.openai.com/docs/api-reference
+	
+	git clone https://github.com/huntabyte/chatty.git
+
+2) Create a .env file to store KEY
+(OpenAI Key for potdukhe12
+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)
+
+	cd chatty && touch .env
+	echo OPENAI_KEY=<Paste your KEY here> >> .env
+
+3)make sure pnpm is installed
+
+	npm install -g pnpm
+
+4)Install some dependencies
+
+	pnpm i && pnpm run dev
+
+5)Now open the link ==> http://localhost:5173/
