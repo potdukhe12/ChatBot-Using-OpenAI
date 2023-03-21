@@ -22,3 +22,10 @@ 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)
 	pnpm i && pnpm run dev
 
 5)Now open the link ==> http://localhost:5173/
+
+
+
+
+
+
+
